@@ -25,7 +25,7 @@ class App extends Component {
                 <Col xs={12} md={7}>
                   <h1>About myself</h1>
                   <p>
-                  I'm a social person and a earlybird <br/>like they say the early worm catches the worm
+                  I'm a social person and a earlybird <br/>like they say the early bird catches the worm
                   </p>
                   <Card style={{ width: '18rem' }}>
   <Card.Body>

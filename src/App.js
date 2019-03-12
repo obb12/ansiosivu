@@ -16,7 +16,7 @@ class App extends Component {
       I'm a full stack developer and a linux geek based in Helsinki Finland
     </p>
     <p>
-    <Button variant="primary"><a href="https://github.com/obb12?tab=repositories">My github profile</a></Button>
+    <a className="btn btn-primary btn-lg"  href="https://github.com/obb12?tab=repositories">My github profile</a>
 
     </p>
   </Jumbotron>

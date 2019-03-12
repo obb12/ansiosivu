@@ -84,6 +84,7 @@ class App extends Component {
                 <p>
                 Business information technology
                 </p>
+                    <Button variant="info" href="http://www.haaga-helia.fi/en/frontpage">Info About School</Button>
               </Card.Text>
             </Card.Body>
             </Card>
@@ -96,6 +97,8 @@ class App extends Component {
                 <p>
                 Web development major
                 </p>
+                <Button variant="info" href="https://en.bc.fi/">Info About School</Button>
+
               </Card.Text>
             </Card.Body>
             </Card>
@@ -111,6 +114,7 @@ class App extends Component {
                 <p>
                 Programming websites with javascript
                 </p>
+                <Button variant="info" href="http://digitalents.munstadi.fi/en/">Info about Job</Button>
               </Card.Text>
             </Card.Body>
             </Card>
@@ -123,13 +127,80 @@ class App extends Component {
                 <p>
                 Helping people with technology and immigration
                 </p>
+                <Button variant="info" href="http://www.helmet.fi/en-US/Libraries_and_services/Tapiola_Library/Librarys_services/Tapiola_Library_Makerspace(45433)">Info about Job</Button>
+
               </Card.Text>
             </Card.Body>
             </Card>
             </Col>
             </Row>
             </Container>
+            <Container>
+            <Row className="show-grid">
 
+            <Col xs={12} md={7}>
+          <h2>  Hobbies</h2>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Karate</Card.Title>
+
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Cubing</Card.Title>
+
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Swimming</Card.Title>
+
+            </Card.Body>
+            </Card>
+            </Col>
+            <Col xs={6} md={4}>
+          <h2>  Certifications</h2>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Linux pro</Card.Title>
+              <Card.Text>
+                2019
+                <p>
+Testout                 </p>
+              </Card.Text>
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Hygiene passport</Card.Title>
+              <Card.Text>
+2017
+                <p>
+Valvira                 </p>
+              </Card.Text>
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+
+            <Card.Body>
+              <Card.Title>Uimakandidaatti</Card.Title>
+              <Card.Text>
+2018
+                <p>
+Vuosaaren uimahalli                  </p>
+              </Card.Text>
+            </Card.Body>
+            </Card>
+
+            </Col>
+            </Row>
+            </Container>
       </div>
     );
   }

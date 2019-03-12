@@ -21,7 +21,7 @@ class App extends Component {
   </Jumbotron>;
   <Container>
               <Row className="show-grid">
-                <Col xs={12} md={8}>
+                <Col xs={12} md={7}>
                   <h1>About myself</h1>
                   <p>
                   I'm a social person and a earlybird <br/>like they say the early worm catches the worm
@@ -72,7 +72,7 @@ class App extends Component {
             <Container>
             <Row className="show-grid">
 
-            <Col xs={12} md={8}>
+            <Col xs={12} md={7}>
           <h2>  Education</h2>
             <Card style={{ width: '18rem' }}>
 

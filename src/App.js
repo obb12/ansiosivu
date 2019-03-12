@@ -47,25 +47,25 @@ class App extends Component {
 
                 </Col>
                 <Col xs={6} md={4}>
-                  <h1>My skills</h1>
-                  <h3>Php</h3>
-                  <ProgressBar now={90} className="mb-3"/>
-                  <h3>vue</h3>
+                    <h1>My skills</h1>
+                    <h3>Php</h3>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <h3>vue</h3>
 
-                  <ProgressBar now={90} className="mb-3"/>
-                  <h3>react</h3>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <h3>react</h3>
 
-                  <ProgressBar now={90} className="mb-3"/>
-                  <h3>html5</h3>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <h3>html5</h3>
 
-                  <ProgressBar now={90} className="mb-3"/>
-                  <h3>css</h3>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <h3>css</h3>
 
-                  <ProgressBar now={90} className="mb-3"/>
-                  <h3>linux</h3>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <h3>linux</h3>
 
-                  <ProgressBar now={90} className="mb-3"/>
-                </Col>
+                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                  </Col>
               </Row>
 
 

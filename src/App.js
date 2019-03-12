@@ -18,7 +18,7 @@ class App extends Component {
     <p>
       <Button variant="primary">My github profile</Button>
     </p>
-  </Jumbotron>;
+  </Jumbotron>
   <Container>
               <Row className="show-grid">
                 <Col xs={12} md={7}>

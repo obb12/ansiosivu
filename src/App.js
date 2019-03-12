@@ -16,11 +16,11 @@ class App extends Component {
       I'm a full stack developer and a linux geek based in Helsinki Finland
     </p>
     <p>
-    <a className="btn btn-primary btn-lg"  href="https://github.com/obb12?tab=repositories">My github profile</a>
+    <Button    href="https://github.com/obb12?tab=repositories">My github profile</Button>
 
     </p>
   </Jumbotron>
-  <Container>
+  <Container className="mb-4">
               <Row className="show-grid">
                 <Col xs={12} md={7}>
                   <h1>About myself</h1>

@@ -44,27 +44,28 @@ class App extends Component {
   </Card.Text>
 </Card.Body>
 </Card>
+    <h1>My skills</h1>
+    <h3>Php</h3>
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+    <h3>vue</h3>
 
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+    <h3>react</h3>
+
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+    <h3>html5</h3>
+
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+    <h3>css</h3>
+
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+    <h3>linux</h3>
+
+    <ProgressBar  variant="success" now={90} className="mb-3"/>
+  
                 </Col>
                 <Col xs={6} md={4}>
-                    <h1>My skills</h1>
-                    <h3>Php</h3>
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
-                    <h3>vue</h3>
 
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
-                    <h3>react</h3>
-
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
-                    <h3>html5</h3>
-
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
-                    <h3>css</h3>
-
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
-                    <h3>linux</h3>
-
-                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>java</h3>
 
                     <ProgressBar  variant="info" now={45} className="mb-3"/>

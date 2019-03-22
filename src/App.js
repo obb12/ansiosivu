@@ -49,22 +49,38 @@ class App extends Component {
                 <Col xs={6} md={4}>
                     <h1>My skills</h1>
                     <h3>Php</h3>
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>vue</h3>
 
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>react</h3>
 
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>html5</h3>
 
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>css</h3>
 
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
                     <h3>linux</h3>
 
-                    <ProgressBar striped variant="success" now={90} className="mb-3"/>
+                    <ProgressBar  variant="success" now={90} className="mb-3"/>
+                    <h3>java</h3>
+
+                    <ProgressBar  variant="info" now={45} className="mb-3"/>
+
+                    <h3>c#</h3>
+
+                    <ProgressBar  variant="warning" now={50} className="mb-3"/>
+                    <h3>mysql</h3>
+
+                    <ProgressBar  variant="warning" now={50} className="mb-3"/>
+                    <h3>indesign</h3>
+
+                    <ProgressBar  variant="danger" now={30} className="mb-3"/>
+                    <h3>illustrator</h3>
+
+                    <ProgressBar  variant="danger" now={30} className="mb-3"/>
                   </Col>
               </Row>
 

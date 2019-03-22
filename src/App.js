@@ -21,29 +21,35 @@ class App extends Component {
     </p>
   </Jumbotron>
   <Container className="mb-4">
-              <Row className="show-grid">
-                <Col xs={12} md={7}>
-                  <h1>About myself</h1>
-                  <p>
-                  I'm a social person and a earlybird <br/>like they say the early bird catches the worm
-                  </p>
-                  <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Code written</Card.Title>
-    <Card.Text>
-      Over 100k lines of code
-    </Card.Text>
-  </Card.Body>
-</Card>
-<Card style={{ width: '18rem' }}>
+              <Row className="show-grid" >
 
-<Card.Body>
-  <Card.Title>Started coding</Card.Title>
-  <Card.Text>
-    I started coding in 2014
-  </Card.Text>
-</Card.Body>
-</Card>
+            <Col sm="12" md={{ size: 6, offset: 5 }}>
+            <h1>About myself</h1>
+            <p>
+            I'm a social person and a earlybird <br/>like they say the early bird catches the worm
+            </p>
+            <Card style={{ width: '18rem' }}>
+        <Card.Body>
+        <Card.Title>Code written</Card.Title>
+        <Card.Text>
+        Over 100k lines of code
+        </Card.Text>
+        </Card.Body>
+        </Card>
+        <Card style={{ width: '18rem' }}>
+
+        <Card.Body>
+        <Card.Title>Started coding</Card.Title>
+        <Card.Text>
+        I started coding in 2014
+        </Card.Text>
+        </Card.Body>
+        </Card>
+            </Col>
+            </Row>
+            <Row>
+            <Col sm="12" md={{ size: 6 }}>
+
     <h1>My skills</h1>
     <h3>Php</h3>
     <ProgressBar  variant="success" now={90} className="mb-3"/>
@@ -62,9 +68,9 @@ class App extends Component {
     <h3>linux</h3>
 
     <ProgressBar  variant="success" now={90} className="mb-3"/>
-  
-                </Col>
-                <Col xs={6} md={4}>
+
+</Col>
+                <Col xs={6} md={6} className="margin-top-4">
 
                     <h3>java</h3>
 

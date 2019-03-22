@@ -48,7 +48,7 @@ class App extends Component {
             </Col>
             </Row>
             <Row>
-            <Col sm="12" md={{ size: 6 }}>
+            <Col xs="12" md={{ size: 6 }}>
 
     <h1>My skills</h1>
     <h3>Php</h3>
@@ -70,7 +70,7 @@ class App extends Component {
     <ProgressBar  variant="success" now={90} className="mb-3"/>
 
 </Col>
-                <Col xs={6} md={6} className="margin-top-4">
+                <Col xs={12} md={6} className="margin-top-4">
 
                     <h3>java</h3>
 
@@ -96,7 +96,7 @@ class App extends Component {
             <Container>
             <Row className="show-grid">
 
-            <Col xs={12} md={7}>
+            <Col xs={12} md={6}>
           <h2>  Education</h2>
             <Card style={{ width: '18rem' }}>
 
@@ -126,7 +126,7 @@ class App extends Component {
             </Card.Body>
             </Card>
             </Col>
-            <Col xs={6} md={4}>
+            <Col xs={12} md={6}>
           <h2>  Job experience</h2>
             <Card style={{ width: '18rem' }}>
 
